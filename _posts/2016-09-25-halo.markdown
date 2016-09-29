@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Halo Room"
+date:   2016-09-25 08:00:00
+categories: vrview
+image: location_halo.jpg
+description: Halo room.
+---

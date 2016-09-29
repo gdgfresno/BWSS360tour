@@ -1,10 +1,14 @@
 # Site settings
-title: Smart Material Theme
-email: your-email@domain.com
-description: Slick Material Design theme for Jekyll powered by Material Design Lite.
-baseurl: "/jekyll-smart-material" # the subpath of your site, e.g. /blog/
-url: "http://ssokurenko.github.io" # the base hostname & protocol for your site
-copyright: '&copy; 2015-2016 Smart Material Theme'
+title: Bitwise South Stadium 360 Tour
+email: csaba.toth.us@gmail.com
+description: 360 views inside of Bitwise South Stadium.
+baseurl: "/BWSS360tour" # the subpath of your site, e.g. /blog/
+url: "http://gdgfresno.github.io" # the base hostname & protocol for your site
+copyright: '&copy; 2016 ValleyDevFest'
+
+# Links
+devfest: "https://valleydevfest.com"
+bitwise: "http://bitwiseindustries.com"
 
 # Build settings
 markdown: kramdown

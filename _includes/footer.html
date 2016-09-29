@@ -7,13 +7,19 @@
             <li>
                 <a href="{{ site.baseurl }}/">Home</a>
             </li>
-            {% for page in site.pages %}
-            {% if page.title %}
             <li>
-                <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                <a href="{{ site.devfest }}/">ValleyDevFest</a>
+            </li>
+            {% for post in site.posts %}
+            {% if post.title %}
+            <li>
+                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </li>
             {% endif %}
             {% endfor %}
+            <li>
+                <a href="{{ site.bitwise }}/">Bitwise</a>
+            </li>
         </ul>
         <div class="copyright">
             {{ site.copyright }} | Design:&nbsp;<a href="https://github.com/ssokurenko/jekyll-smart-material">Jekyll&nbsp;Smart&nbsp;Material</a>

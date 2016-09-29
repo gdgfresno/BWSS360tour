@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Geekwise Academy Hall"
+date:   2016-09-26 08:00:00
+categories: vrview
+image: location_geekwise.jpg
+description: Geekwise Hall.
+---

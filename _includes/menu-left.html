@@ -2,10 +2,12 @@
     <span class="mdl-layout-title">Left Menu</span>
     <nav class="mdl-navigation">
         <a class="mdl-navigation__link" href="{{ site.baseurl }}/">Home</a>
-        {% for page in site.pages %}
-        {% if page.title %}
-        <a class="mdl-navigation__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+        <a class="mdl-navigation__link" href="{{ site.devfest }}/">ValleyDevFest</a>
+        {% for post in site.posts %}
+        {% if post.title %}
+        <a class="mdl-navigation__link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         {% endif %}
         {% endfor %}
+        <a class="mdl-navigation__link" href="{{ site.bitwise }}/">Bitwise</a>
     </nav>
 </div>
