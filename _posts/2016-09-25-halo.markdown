@@ -4,5 +4,6 @@ title:  "Halo Room"
 date:   2016-09-25 08:00:00
 categories: vrview
 image: location_halo.jpg
+thumbnail: location_halo_th.jpg
 description: Halo room.
 ---

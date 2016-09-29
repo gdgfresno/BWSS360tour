@@ -4,5 +4,6 @@ title:  "Zelda Room"
 date:   2016-09-23 08:00:00
 categories: vrview
 image: location_zelda.jpg
+thumbnail: location_zelda_th.jpg
 description: The Legend of Zelda room.
 ---

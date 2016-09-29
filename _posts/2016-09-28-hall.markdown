@@ -4,5 +4,6 @@ title:  "Main Hall"
 date:   2016-09-28 08:00:00
 categories: vrview
 image: location_hall.jpg
+thumbnail: location_hall_th.jpg
 description: 1st level Hall, entrance.
 ---
