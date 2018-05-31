@@ -6,6 +6,8 @@
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
     ga('create', '{{ site.google-analytics-ua }}', 'auto');
-    ga('send', 'pageview');
+    ga('send', 'pageview', {
+      'anonymizeIp': true
+    });
 </script>
 <!-- END Google Analytics Script -->
